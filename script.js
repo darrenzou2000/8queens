@@ -2,7 +2,7 @@
 var board=[]
 makeboard()
 fillboard()
-
+var length = 8;
 function makeboard(){
     var table = document.createElement("table");
 for (var i = 0; i < length; i++) {
